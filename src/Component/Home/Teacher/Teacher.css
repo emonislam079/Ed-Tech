@@ -1,0 +1,12 @@
+.teacher-card .card {
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.teacher-card {
+  transition: all 0.2s ease-in-out;
+}
+
+.teacher-card:hover {
+  transform: scale(1.04);
+}
