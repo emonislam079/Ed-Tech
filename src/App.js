@@ -7,6 +7,7 @@ import Home from './Component/Home/Home';
 import Login from './Component/Login/Login/Login';
 import Regestration from './Component/Login/Regestration/Regestration';
 import NotFound from './Component/NotFound/NotFound';
+import Payment from './Component/Payment/Payment';
 import Services from './Component/Services/Services';
 import AuthProvider from './Contex/AuthProvider';
 
@@ -29,6 +30,9 @@ function App() {
             </Route>
             <Route path="/admission">
               <Admission></Admission>
+            </Route>
+            <Route path="/payment">
+              <Payment></Payment>
             </Route>
             <Route path="/login">
               <Login></Login>
